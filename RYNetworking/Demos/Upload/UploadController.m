@@ -64,11 +64,11 @@
     self.progressView.progress = 0.f;
     __weak typeof(self) weakSelf = self;
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"screenshot.gif" ofType:@""];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"iPhone.jpg" ofType:@""];
     NSURL *url = [NSURL fileURLWithPath:path];
     NSData *data = [NSData dataWithContentsOfURL:url];
     
-    RYUploadFormData *formdata = [RYUploadFormData formDataWithName:@"screenshot.gif" fileData:data];
+    RYUploadFormData *formdata = [RYUploadFormData formDataWithName:@"iPhone.jpg" fileData:data];
     
     self.uploadRequest =  [RYHttpClient Upload:@"post" parameters:@{} headers:@{} dataArray:@[formdata] onProcess:^(NSProgress * _Nonnull progress) {
         weakSelf.progressView.progress =  @(progress.completedUnitCount).floatValue / @(progress.totalUnitCount).floatValue;;
@@ -90,7 +90,7 @@
     self.customUploadButton.enabled = NO;
     self.progressView.progress = 0.f;
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:@"test.mp4" ofType:@""];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"iPhone.jpg" ofType:@""];
     NSURL *url = [NSURL fileURLWithPath:path];
     NSData *data = [NSData dataWithContentsOfURL:url];
 
