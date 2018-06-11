@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		1D01ADE7BFCDDCE8BCD0549F /* libPods-RYNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F907DFFD8F4E7F29BB2C80B6 /* libPods-RYNetworking.a */; };
+		754B38B820CE3606006B3997 /* SSLPinningTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B389220CE3606006B3997 /* SSLPinningTableVC.m */; };
+		754B38B920CE3606006B3997 /* SSLPinningVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B389320CE3606006B3997 /* SSLPinningVM.m */; };
+		754B38BA20CE3606006B3997 /* BatchRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B389520CE3606006B3997 /* BatchRequestVC.m */; };
+		754B38BB20CE3606006B3997 /* BatchRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B389620CE3606006B3997 /* BatchRequestViewModel.m */; };
+		754B38BC20CE3606006B3997 /* DownloadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B389A20CE3606006B3997 /* DownloadViewController.m */; };
+		754B38BD20CE3606006B3997 /* HomeViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B389E20CE3606006B3997 /* HomeViewModel.m */; };
+		754B38BE20CE3606006B3997 /* HomeTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38A020CE3606006B3997 /* HomeTableVC.m */; };
+		754B38BF20CE3606006B3997 /* NormalRequestViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38A220CE3606006B3997 /* NormalRequestViewModel.m */; };
+		754B38C020CE3606006B3997 /* NormalRequestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38A520CE3606006B3997 /* NormalRequestVC.m */; };
+		754B38C120CE3606006B3997 /* ChainRequestVM.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38A920CE3606006B3997 /* ChainRequestVM.m */; };
+		754B38C220CE3606006B3997 /* ChainRequestTableVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38AA20CE3606006B3997 /* ChainRequestTableVC.m */; };
+		754B38C320CE3606006B3997 /* UIWindow+NetworkingDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38AC20CE3606006B3997 /* UIWindow+NetworkingDemo.m */; };
+		754B38C420CE3606006B3997 /* TableViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B120CE3606006B3997 /* TableViewModel.m */; };
+		754B38C520CE3606006B3997 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B220CE3606006B3997 /* TableViewController.m */; };
+		754B38C620CE3606006B3997 /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B420CE3606006B3997 /* AlertHelper.m */; };
+		754B38C720CE3606006B3997 /* UploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B720CE3606006B3997 /* UploadController.m */; };
 		7563FC0E20CE2EA400F21D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC0D20CE2EA400F21D59 /* AppDelegate.m */; };
 		7563FC1120CE2EA400F21D59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC1020CE2EA400F21D59 /* ViewController.m */; };
 		7563FC1420CE2EA400F21D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563FC1220CE2EA400F21D59 /* Main.storyboard */; };
@@ -26,6 +42,39 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		754B389020CE3606006B3997 /* SSLPinningTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLPinningTableVC.h; sourceTree = "<group>"; };
+		754B389120CE3606006B3997 /* SSLPinningVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SSLPinningVM.h; sourceTree = "<group>"; };
+		754B389220CE3606006B3997 /* SSLPinningTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLPinningTableVC.m; sourceTree = "<group>"; };
+		754B389320CE3606006B3997 /* SSLPinningVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SSLPinningVM.m; sourceTree = "<group>"; };
+		754B389520CE3606006B3997 /* BatchRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchRequestVC.m; sourceTree = "<group>"; };
+		754B389620CE3606006B3997 /* BatchRequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BatchRequestViewModel.m; sourceTree = "<group>"; };
+		754B389720CE3606006B3997 /* BatchRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchRequestVC.h; sourceTree = "<group>"; };
+		754B389820CE3606006B3997 /* BatchRequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BatchRequestViewModel.h; sourceTree = "<group>"; };
+		754B389A20CE3606006B3997 /* DownloadViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DownloadViewController.m; sourceTree = "<group>"; };
+		754B389B20CE3606006B3997 /* DownloadViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DownloadViewController.h; sourceTree = "<group>"; };
+		754B389D20CE3606006B3997 /* HomeTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableVC.h; sourceTree = "<group>"; };
+		754B389E20CE3606006B3997 /* HomeViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewModel.m; sourceTree = "<group>"; };
+		754B389F20CE3606006B3997 /* HomeViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewModel.h; sourceTree = "<group>"; };
+		754B38A020CE3606006B3997 /* HomeTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableVC.m; sourceTree = "<group>"; };
+		754B38A220CE3606006B3997 /* NormalRequestViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalRequestViewModel.m; sourceTree = "<group>"; };
+		754B38A320CE3606006B3997 /* NormalRequestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalRequestVC.h; sourceTree = "<group>"; };
+		754B38A420CE3606006B3997 /* NormalRequestViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NormalRequestViewModel.h; sourceTree = "<group>"; };
+		754B38A520CE3606006B3997 /* NormalRequestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NormalRequestVC.m; sourceTree = "<group>"; };
+		754B38A720CE3606006B3997 /* ChainRequestTableVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainRequestTableVC.h; sourceTree = "<group>"; };
+		754B38A820CE3606006B3997 /* ChainRequestVM.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ChainRequestVM.h; sourceTree = "<group>"; };
+		754B38A920CE3606006B3997 /* ChainRequestVM.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainRequestVM.m; sourceTree = "<group>"; };
+		754B38AA20CE3606006B3997 /* ChainRequestTableVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ChainRequestTableVC.m; sourceTree = "<group>"; };
+		754B38AC20CE3606006B3997 /* UIWindow+NetworkingDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIWindow+NetworkingDemo.m"; sourceTree = "<group>"; };
+		754B38AD20CE3606006B3997 /* AlertHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AlertHelper.h; sourceTree = "<group>"; };
+		754B38AE20CE3606006B3997 /* UIWindow+NetworkingDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIWindow+NetworkingDemo.h"; sourceTree = "<group>"; };
+		754B38B020CE3606006B3997 /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		754B38B120CE3606006B3997 /* TableViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewModel.m; sourceTree = "<group>"; };
+		754B38B220CE3606006B3997 /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		754B38B320CE3606006B3997 /* TableViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewModel.h; sourceTree = "<group>"; };
+		754B38B420CE3606006B3997 /* AlertHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AlertHelper.m; sourceTree = "<group>"; };
+		754B38B620CE3606006B3997 /* UploadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadController.h; sourceTree = "<group>"; };
+		754B38B720CE3606006B3997 /* UploadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadController.m; sourceTree = "<group>"; };
+		754B38C820CE3636006B3997 /* rynetworking.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rynetworking.pch; sourceTree = "<group>"; };
 		7563FC0920CE2EA400F21D59 /* RYNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7563FC0C20CE2EA400F21D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7563FC0D20CE2EA400F21D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -89,6 +138,117 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		754B388E20CE35EB006B3997 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				754B389420CE3606006B3997 /* BathRequest */,
+				754B38A620CE3606006B3997 /* ChainRequest */,
+				754B389920CE3606006B3997 /* Download */,
+				754B389C20CE3606006B3997 /* Home */,
+				754B38A120CE3606006B3997 /* NormalRequest */,
+				754B388F20CE3606006B3997 /* SSLPinningRequest */,
+				754B38AB20CE3606006B3997 /* Tools */,
+				754B38B520CE3606006B3997 /* Upload */,
+			);
+			path = Demos;
+			sourceTree = "<group>";
+		};
+		754B388F20CE3606006B3997 /* SSLPinningRequest */ = {
+			isa = PBXGroup;
+			children = (
+				754B389020CE3606006B3997 /* SSLPinningTableVC.h */,
+				754B389120CE3606006B3997 /* SSLPinningVM.h */,
+				754B389220CE3606006B3997 /* SSLPinningTableVC.m */,
+				754B389320CE3606006B3997 /* SSLPinningVM.m */,
+			);
+			path = SSLPinningRequest;
+			sourceTree = "<group>";
+		};
+		754B389420CE3606006B3997 /* BathRequest */ = {
+			isa = PBXGroup;
+			children = (
+				754B389520CE3606006B3997 /* BatchRequestVC.m */,
+				754B389620CE3606006B3997 /* BatchRequestViewModel.m */,
+				754B389720CE3606006B3997 /* BatchRequestVC.h */,
+				754B389820CE3606006B3997 /* BatchRequestViewModel.h */,
+			);
+			path = BathRequest;
+			sourceTree = "<group>";
+		};
+		754B389920CE3606006B3997 /* Download */ = {
+			isa = PBXGroup;
+			children = (
+				754B389A20CE3606006B3997 /* DownloadViewController.m */,
+				754B389B20CE3606006B3997 /* DownloadViewController.h */,
+			);
+			path = Download;
+			sourceTree = "<group>";
+		};
+		754B389C20CE3606006B3997 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				754B389D20CE3606006B3997 /* HomeTableVC.h */,
+				754B389E20CE3606006B3997 /* HomeViewModel.m */,
+				754B389F20CE3606006B3997 /* HomeViewModel.h */,
+				754B38A020CE3606006B3997 /* HomeTableVC.m */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		754B38A120CE3606006B3997 /* NormalRequest */ = {
+			isa = PBXGroup;
+			children = (
+				754B38A220CE3606006B3997 /* NormalRequestViewModel.m */,
+				754B38A320CE3606006B3997 /* NormalRequestVC.h */,
+				754B38A420CE3606006B3997 /* NormalRequestViewModel.h */,
+				754B38A520CE3606006B3997 /* NormalRequestVC.m */,
+			);
+			path = NormalRequest;
+			sourceTree = "<group>";
+		};
+		754B38A620CE3606006B3997 /* ChainRequest */ = {
+			isa = PBXGroup;
+			children = (
+				754B38A720CE3606006B3997 /* ChainRequestTableVC.h */,
+				754B38A820CE3606006B3997 /* ChainRequestVM.h */,
+				754B38A920CE3606006B3997 /* ChainRequestVM.m */,
+				754B38AA20CE3606006B3997 /* ChainRequestTableVC.m */,
+			);
+			path = ChainRequest;
+			sourceTree = "<group>";
+		};
+		754B38AB20CE3606006B3997 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				754B38AC20CE3606006B3997 /* UIWindow+NetworkingDemo.m */,
+				754B38AD20CE3606006B3997 /* AlertHelper.h */,
+				754B38AE20CE3606006B3997 /* UIWindow+NetworkingDemo.h */,
+				754B38AF20CE3606006B3997 /* BaseTableView */,
+				754B38B420CE3606006B3997 /* AlertHelper.m */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		754B38AF20CE3606006B3997 /* BaseTableView */ = {
+			isa = PBXGroup;
+			children = (
+				754B38B020CE3606006B3997 /* TableViewController.h */,
+				754B38B120CE3606006B3997 /* TableViewModel.m */,
+				754B38B220CE3606006B3997 /* TableViewController.m */,
+				754B38B320CE3606006B3997 /* TableViewModel.h */,
+			);
+			path = BaseTableView;
+			sourceTree = "<group>";
+		};
+		754B38B520CE3606006B3997 /* Upload */ = {
+			isa = PBXGroup;
+			children = (
+				754B38B620CE3606006B3997 /* UploadController.h */,
+				754B38B720CE3606006B3997 /* UploadController.m */,
+			);
+			path = Upload;
+			sourceTree = "<group>";
+		};
 		7563FC0020CE2EA400F21D59 = {
 			isa = PBXGroup;
 			children = (
@@ -111,6 +271,7 @@
 			isa = PBXGroup;
 			children = (
 				7563FC2220CE2F3B00F21D59 /* RYNetworking */,
+				754B388E20CE35EB006B3997 /* Demos */,
 				7563FC0C20CE2EA400F21D59 /* AppDelegate.h */,
 				7563FC0D20CE2EA400F21D59 /* AppDelegate.m */,
 				7563FC0F20CE2EA400F21D59 /* ViewController.h */,
@@ -118,6 +279,7 @@
 				7563FC1220CE2EA400F21D59 /* Main.storyboard */,
 				7563FC1520CE2EA500F21D59 /* Assets.xcassets */,
 				7563FC1720CE2EA500F21D59 /* LaunchScreen.storyboard */,
+				754B38C820CE3636006B3997 /* rynetworking.pch */,
 				7563FC1A20CE2EA500F21D59 /* Info.plist */,
 				7563FC1B20CE2EA500F21D59 /* main.m */,
 			);
@@ -259,16 +421,32 @@
 			buildActionMask = 2147483647;
 			files = (
 				7563FC3920CE2F3B00F21D59 /* RYNetworkTool.m in Sources */,
+				754B38C620CE3606006B3997 /* AlertHelper.m in Sources */,
+				754B38BF20CE3606006B3997 /* NormalRequestViewModel.m in Sources */,
+				754B38C320CE3606006B3997 /* UIWindow+NetworkingDemo.m in Sources */,
+				754B38BE20CE3606006B3997 /* HomeTableVC.m in Sources */,
 				7563FC3B20CE2F3B00F21D59 /* RYNetworkResponse.m in Sources */,
 				7563FC4020CE2F3B00F21D59 /* RYChainRequest.m in Sources */,
+				754B38BA20CE3606006B3997 /* BatchRequestVC.m in Sources */,
+				754B38C520CE3606006B3997 /* TableViewController.m in Sources */,
+				754B38C020CE3606006B3997 /* NormalRequestVC.m in Sources */,
+				754B38B920CE3606006B3997 /* SSLPinningVM.m in Sources */,
+				754B38C120CE3606006B3997 /* ChainRequestVM.m in Sources */,
+				754B38BC20CE3606006B3997 /* DownloadViewController.m in Sources */,
 				7563FC1120CE2EA400F21D59 /* ViewController.m in Sources */,
+				754B38C220CE3606006B3997 /* ChainRequestTableVC.m in Sources */,
+				754B38B820CE3606006B3997 /* SSLPinningTableVC.m in Sources */,
 				7563FC3F20CE2F3B00F21D59 /* RYNetworkConfig.m in Sources */,
 				7563FC3C20CE2F3B00F21D59 /* RYNetworkRequest.m in Sources */,
+				754B38BB20CE3606006B3997 /* BatchRequestViewModel.m in Sources */,
 				7563FC3A20CE2F3B00F21D59 /* RYNetworkError.m in Sources */,
 				7563FC3D20CE2F3B00F21D59 /* RYHttpClient.m in Sources */,
 				7563FC3820CE2F3B00F21D59 /* RYNetworkManager.m in Sources */,
 				7563FC1C20CE2EA500F21D59 /* main.m in Sources */,
+				754B38BD20CE3606006B3997 /* HomeViewModel.m in Sources */,
+				754B38C420CE3606006B3997 /* TableViewModel.m in Sources */,
 				7563FC0E20CE2EA400F21D59 /* AppDelegate.m in Sources */,
+				754B38C720CE3606006B3997 /* UploadController.m in Sources */,
 				7563FC3E20CE2F3B00F21D59 /* RYBatchRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -411,8 +589,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/rynetworking.pch";
 				INFOPLIST_FILE = RYNetworking/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryeagler.RYNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -425,8 +607,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/rynetworking.pch";
 				INFOPLIST_FILE = RYNetworking/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryeagler.RYNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
