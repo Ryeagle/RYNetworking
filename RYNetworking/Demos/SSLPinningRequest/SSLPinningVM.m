@@ -17,12 +17,12 @@
 @implementation SSLPinningVM
 
 - (void)SSLPinning4CustomRequest {
-    [RYHttpClient sendRequest:^(RYNetworkRequest * _Nonnull request) {
+    self.sslRequest = [RYHttpClient sendRequest:^(RYNetworkRequest * _Nonnull request) {
         request.urlStr = @"https://httpbin.org/get";
         request.parameters = @{
                                @"get" : @"custom_get_value"
                                };
-        request.timeoutInterval = 1.0f;
+        request.timeoutInterval = 20.f;
         request.allowsCellularAccess = NO;
         request.requestSerializerType = RYNetworkRequestSerializerTypeHTTP;
         request.responeseSerializerType = RYNetworkResponseSerializerTypeJSON;

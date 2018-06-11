@@ -162,8 +162,8 @@
 			isa = PBXGroup;
 			children = (
 				754B389020CE3606006B3997 /* SSLPinningTableVC.h */,
-				754B389120CE3606006B3997 /* SSLPinningVM.h */,
 				754B389220CE3606006B3997 /* SSLPinningTableVC.m */,
+				754B389120CE3606006B3997 /* SSLPinningVM.h */,
 				754B389320CE3606006B3997 /* SSLPinningVM.m */,
 			);
 			path = SSLPinningRequest;
@@ -312,17 +312,17 @@
 		7563FC2320CE2F3B00F21D59 /* Manager */ = {
 			isa = PBXGroup;
 			children = (
-				7563FC2420CE2F3B00F21D59 /* RYNetworkResponse.h */,
-				7563FC2520CE2F3B00F21D59 /* RYNetworkError.h */,
-				7563FC2620CE2F3B00F21D59 /* RYNetworkRequest.h */,
-				7563FC2720CE2F3B00F21D59 /* RYNetworkManager.m */,
-				7563FC2820CE2F3B00F21D59 /* RYNetworkTool.m */,
-				7563FC2920CE2F3B00F21D59 /* RYNetworkError.m */,
-				7563FC2A20CE2F3B00F21D59 /* RYNetworkResponse.m */,
-				7563FC2B20CE2F3B00F21D59 /* RYNetworkRequest.m */,
-				7563FC2C20CE2F3B00F21D59 /* RYNetworkManager.h */,
 				7563FC2D20CE2F3B00F21D59 /* RYNetworkConst.h */,
+				7563FC2C20CE2F3B00F21D59 /* RYNetworkManager.h */,
+				7563FC2720CE2F3B00F21D59 /* RYNetworkManager.m */,
+				7563FC2520CE2F3B00F21D59 /* RYNetworkError.h */,
+				7563FC2920CE2F3B00F21D59 /* RYNetworkError.m */,
+				7563FC2620CE2F3B00F21D59 /* RYNetworkRequest.h */,
+				7563FC2B20CE2F3B00F21D59 /* RYNetworkRequest.m */,
+				7563FC2420CE2F3B00F21D59 /* RYNetworkResponse.h */,
+				7563FC2A20CE2F3B00F21D59 /* RYNetworkResponse.m */,
 				7563FC2E20CE2F3B00F21D59 /* RYNetworkTool.h */,
+				7563FC2820CE2F3B00F21D59 /* RYNetworkTool.m */,
 			);
 			path = Manager;
 			sourceTree = "<group>";
@@ -330,14 +330,14 @@
 		7563FC2F20CE2F3B00F21D59 /* Client */ = {
 			isa = PBXGroup;
 			children = (
-				7563FC3020CE2F3B00F21D59 /* RYHttpClient.m */,
-				7563FC3120CE2F3B00F21D59 /* RYBatchRequest.m */,
-				7563FC3220CE2F3B00F21D59 /* RYNetworkConfig.h */,
-				7563FC3320CE2F3B00F21D59 /* RYChainRequest.h */,
-				7563FC3420CE2F3B00F21D59 /* RYBatchRequest.h */,
 				7563FC3520CE2F3B00F21D59 /* RYHttpClient.h */,
-				7563FC3620CE2F3B00F21D59 /* RYNetworkConfig.m */,
+				7563FC3020CE2F3B00F21D59 /* RYHttpClient.m */,
+				7563FC3420CE2F3B00F21D59 /* RYBatchRequest.h */,
+				7563FC3120CE2F3B00F21D59 /* RYBatchRequest.m */,
+				7563FC3320CE2F3B00F21D59 /* RYChainRequest.h */,
 				7563FC3720CE2F3B00F21D59 /* RYChainRequest.m */,
+				7563FC3220CE2F3B00F21D59 /* RYNetworkConfig.h */,
+				7563FC3620CE2F3B00F21D59 /* RYNetworkConfig.m */,
 			);
 			path = Client;
 			sourceTree = "<group>";
@@ -605,8 +605,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBCZX2ZYCS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/rynetworking.pch";
 				INFOPLIST_FILE = RYNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -623,8 +625,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = YBCZX2ZYCS;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/$(PROJECT_NAME)/rynetworking.pch";
 				INFOPLIST_FILE = RYNetworking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",

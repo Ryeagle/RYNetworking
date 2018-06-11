@@ -85,7 +85,7 @@ static dispatch_queue_t RY_network_manager_creation_queue() {
     }
     switch (request.type) {
         case RYNetworkRequestTypeNormal:
-            [self sendNormalRequestViewModel:request withSessonManager:sessionManager completionHandler:completionHandler];
+            [self sendNormalRequest:request withSessonManager:sessionManager completionHandler:completionHandler];
             break;
         case RYNetworkRequestTypeUpload:
             [self sendUploadRequest:request withSessonManager:sessionManager progressBlock:progressBlock completionHandler:completionHandler];
@@ -123,7 +123,7 @@ static dispatch_queue_t RY_network_manager_creation_queue() {
 
 #pragma mark - Private Methods
 
-- (void)sendNormalRequestViewModel:(RYNetworkRequest *)request withSessonManager:(AFHTTPSessionManager *)sessionManager completionHandler:(RYNetworkResponseBlock)completionHandler {
+- (void)sendNormalRequest:(RYNetworkRequest *)request withSessonManager:(AFHTTPSessionManager *)sessionManager completionHandler:(RYNetworkResponseBlock)completionHandler {
     NSError *requestError;
     
     AFHTTPRequestSerializer *reqeustSerializer = [self requestSerializerWithRequest:request];
