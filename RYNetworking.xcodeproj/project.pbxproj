@@ -24,6 +24,7 @@
 		754B38C520CE3606006B3997 /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B220CE3606006B3997 /* TableViewController.m */; };
 		754B38C620CE3606006B3997 /* AlertHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B420CE3606006B3997 /* AlertHelper.m */; };
 		754B38C720CE3606006B3997 /* UploadController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754B38B720CE3606006B3997 /* UploadController.m */; };
+		754B38CB20CE37B2006B3997 /* httpbin.org.cer in Resources */ = {isa = PBXBuildFile; fileRef = 754B38CA20CE37B2006B3997 /* httpbin.org.cer */; };
 		7563FC0E20CE2EA400F21D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC0D20CE2EA400F21D59 /* AppDelegate.m */; };
 		7563FC1120CE2EA400F21D59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC1020CE2EA400F21D59 /* ViewController.m */; };
 		7563FC1420CE2EA400F21D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563FC1220CE2EA400F21D59 /* Main.storyboard */; };
@@ -75,6 +76,7 @@
 		754B38B620CE3606006B3997 /* UploadController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = UploadController.h; sourceTree = "<group>"; };
 		754B38B720CE3606006B3997 /* UploadController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = UploadController.m; sourceTree = "<group>"; };
 		754B38C820CE3636006B3997 /* rynetworking.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = rynetworking.pch; sourceTree = "<group>"; };
+		754B38CA20CE37B2006B3997 /* httpbin.org.cer */ = {isa = PBXFileReference; lastKnownFileType = file; path = httpbin.org.cer; sourceTree = "<group>"; };
 		7563FC0920CE2EA400F21D59 /* RYNetworking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RYNetworking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7563FC0C20CE2EA400F21D59 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		7563FC0D20CE2EA400F21D59 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		754B388E20CE35EB006B3997 /* Demos */ = {
 			isa = PBXGroup;
 			children = (
+				754B38C920CE3796006B3997 /* Resource */,
 				754B38AB20CE3606006B3997 /* Tools */,
 				754B389C20CE3606006B3997 /* Home */,
 				754B38A120CE3606006B3997 /* NormalRequest */,
@@ -247,6 +250,14 @@
 				754B38B720CE3606006B3997 /* UploadController.m */,
 			);
 			path = Upload;
+			sourceTree = "<group>";
+		};
+		754B38C920CE3796006B3997 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				754B38CA20CE37B2006B3997 /* httpbin.org.cer */,
+			);
+			path = Resource;
 			sourceTree = "<group>";
 		};
 		7563FC0020CE2EA400F21D59 = {
@@ -388,6 +399,7 @@
 			files = (
 				7563FC1920CE2EA500F21D59 /* LaunchScreen.storyboard in Resources */,
 				7563FC1620CE2EA500F21D59 /* Assets.xcassets in Resources */,
+				754B38CB20CE37B2006B3997 /* httpbin.org.cer in Resources */,
 				7563FC1420CE2EA400F21D59 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
