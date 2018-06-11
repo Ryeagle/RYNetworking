@@ -25,6 +25,7 @@
 #pragma mark - Accessors
 
 - (void)setLogEnable:(BOOL)logEnable {
+    _logEnable = logEnable;
     [RYNetworkTool sharedInstance].logEnable = logEnable;
 }
 @end

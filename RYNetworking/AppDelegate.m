@@ -7,6 +7,7 @@
 //
 
 #import "AppDelegate.h"
+#import "RYNetworkConfig.h"
 
 @interface AppDelegate ()
 
@@ -16,7 +17,21 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    [RYNetworkConfig sharedInstance].baseUrl = @"https://httpbin.org";
+    [RYNetworkConfig sharedInstance].logEnable = YES;
+    [RYNetworkConfig sharedInstance].timeoutInternalForRequest = 60;
+    [RYNetworkConfig sharedInstance].allowsCellularAccess = YES;
+    [RYNetworkConfig sharedInstance].baseUrl = @"https://httpbin.org";
+    [RYNetworkConfig sharedInstance].headers = @{
+                                                 @"common_HeaderName" : @"commonHeaderName_jindan",
+                                                 @"common_HeaderAddr" : @"common_HeaderAddr_beijing",
+                                                 };
+    [RYNetworkConfig sharedInstance].parameters = @{
+                                                    @"common_body_name" : @"common_body_jindan",
+                                                    @"common_body_city" : @"common_body_beijing"
+                                                    };
+    [RYNetworkConfig sharedInstance].requestSerializerType = RYNetworkRequestSerializerTypeJSON;
+    [RYNetworkConfig sharedInstance].responeseSerializerType = RYNetworkResponseSerializerTypeJSON;
     return YES;
 }
 
