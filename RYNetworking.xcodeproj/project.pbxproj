@@ -7,12 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1D01ADE7BFCDDCE8BCD0549F /* libPods-RYNetworking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F907DFFD8F4E7F29BB2C80B6 /* libPods-RYNetworking.a */; };
 		7563FC0E20CE2EA400F21D59 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC0D20CE2EA400F21D59 /* AppDelegate.m */; };
 		7563FC1120CE2EA400F21D59 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC1020CE2EA400F21D59 /* ViewController.m */; };
 		7563FC1420CE2EA400F21D59 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563FC1220CE2EA400F21D59 /* Main.storyboard */; };
 		7563FC1620CE2EA500F21D59 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7563FC1520CE2EA500F21D59 /* Assets.xcassets */; };
 		7563FC1920CE2EA500F21D59 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7563FC1720CE2EA500F21D59 /* LaunchScreen.storyboard */; };
 		7563FC1C20CE2EA500F21D59 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC1B20CE2EA500F21D59 /* main.m */; };
+		7563FC3820CE2F3B00F21D59 /* RYNetworkManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC2720CE2F3B00F21D59 /* RYNetworkManager.m */; };
+		7563FC3920CE2F3B00F21D59 /* RYNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC2820CE2F3B00F21D59 /* RYNetworkTool.m */; };
+		7563FC3A20CE2F3B00F21D59 /* RYNetworkError.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC2920CE2F3B00F21D59 /* RYNetworkError.m */; };
+		7563FC3B20CE2F3B00F21D59 /* RYNetworkResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC2A20CE2F3B00F21D59 /* RYNetworkResponse.m */; };
+		7563FC3C20CE2F3B00F21D59 /* RYNetworkRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC2B20CE2F3B00F21D59 /* RYNetworkRequest.m */; };
+		7563FC3D20CE2F3B00F21D59 /* RYHttpClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC3020CE2F3B00F21D59 /* RYHttpClient.m */; };
+		7563FC3E20CE2F3B00F21D59 /* RYBatchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC3120CE2F3B00F21D59 /* RYBatchRequest.m */; };
+		7563FC3F20CE2F3B00F21D59 /* RYNetworkConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC3620CE2F3B00F21D59 /* RYNetworkConfig.m */; };
+		7563FC4020CE2F3B00F21D59 /* RYChainRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 7563FC3720CE2F3B00F21D59 /* RYChainRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +36,28 @@
 		7563FC1820CE2EA500F21D59 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7563FC1A20CE2EA500F21D59 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7563FC1B20CE2EA500F21D59 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7563FC2420CE2F3B00F21D59 /* RYNetworkResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkResponse.h; sourceTree = "<group>"; };
+		7563FC2520CE2F3B00F21D59 /* RYNetworkError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkError.h; sourceTree = "<group>"; };
+		7563FC2620CE2F3B00F21D59 /* RYNetworkRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkRequest.h; sourceTree = "<group>"; };
+		7563FC2720CE2F3B00F21D59 /* RYNetworkManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkManager.m; sourceTree = "<group>"; };
+		7563FC2820CE2F3B00F21D59 /* RYNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkTool.m; sourceTree = "<group>"; };
+		7563FC2920CE2F3B00F21D59 /* RYNetworkError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkError.m; sourceTree = "<group>"; };
+		7563FC2A20CE2F3B00F21D59 /* RYNetworkResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkResponse.m; sourceTree = "<group>"; };
+		7563FC2B20CE2F3B00F21D59 /* RYNetworkRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkRequest.m; sourceTree = "<group>"; };
+		7563FC2C20CE2F3B00F21D59 /* RYNetworkManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkManager.h; sourceTree = "<group>"; };
+		7563FC2D20CE2F3B00F21D59 /* RYNetworkConst.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkConst.h; sourceTree = "<group>"; };
+		7563FC2E20CE2F3B00F21D59 /* RYNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkTool.h; sourceTree = "<group>"; };
+		7563FC3020CE2F3B00F21D59 /* RYHttpClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYHttpClient.m; sourceTree = "<group>"; };
+		7563FC3120CE2F3B00F21D59 /* RYBatchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYBatchRequest.m; sourceTree = "<group>"; };
+		7563FC3220CE2F3B00F21D59 /* RYNetworkConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYNetworkConfig.h; sourceTree = "<group>"; };
+		7563FC3320CE2F3B00F21D59 /* RYChainRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYChainRequest.h; sourceTree = "<group>"; };
+		7563FC3420CE2F3B00F21D59 /* RYBatchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYBatchRequest.h; sourceTree = "<group>"; };
+		7563FC3520CE2F3B00F21D59 /* RYHttpClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RYHttpClient.h; sourceTree = "<group>"; };
+		7563FC3620CE2F3B00F21D59 /* RYNetworkConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYNetworkConfig.m; sourceTree = "<group>"; };
+		7563FC3720CE2F3B00F21D59 /* RYChainRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RYChainRequest.m; sourceTree = "<group>"; };
+		7880014C302D54DA13C1ED10 /* Pods-RYNetworking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYNetworking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RYNetworking/Pods-RYNetworking.debug.xcconfig"; sourceTree = "<group>"; };
+		CF72FB03F81E7C6108755C98 /* Pods-RYNetworking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RYNetworking.release.xcconfig"; path = "Pods/Target Support Files/Pods-RYNetworking/Pods-RYNetworking.release.xcconfig"; sourceTree = "<group>"; };
+		F907DFFD8F4E7F29BB2C80B6 /* libPods-RYNetworking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RYNetworking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +65,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D01ADE7BFCDDCE8BCD0549F /* libPods-RYNetworking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		27FACB41A1F38C89AEAE2AA3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7880014C302D54DA13C1ED10 /* Pods-RYNetworking.debug.xcconfig */,
+				CF72FB03F81E7C6108755C98 /* Pods-RYNetworking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		705EBD68AFDE779A2088C848 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F907DFFD8F4E7F29BB2C80B6 /* libPods-RYNetworking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		7563FC0020CE2EA400F21D59 = {
 			isa = PBXGroup;
 			children = (
 				7563FC0B20CE2EA400F21D59 /* RYNetworking */,
 				7563FC0A20CE2EA400F21D59 /* Products */,
+				27FACB41A1F38C89AEAE2AA3 /* Pods */,
+				705EBD68AFDE779A2088C848 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +110,7 @@
 		7563FC0B20CE2EA400F21D59 /* RYNetworking */ = {
 			isa = PBXGroup;
 			children = (
+				7563FC2220CE2F3B00F21D59 /* RYNetworking */,
 				7563FC0C20CE2EA400F21D59 /* AppDelegate.h */,
 				7563FC0D20CE2EA400F21D59 /* AppDelegate.m */,
 				7563FC0F20CE2EA400F21D59 /* ViewController.h */,
@@ -71,6 +124,48 @@
 			path = RYNetworking;
 			sourceTree = "<group>";
 		};
+		7563FC2220CE2F3B00F21D59 /* RYNetworking */ = {
+			isa = PBXGroup;
+			children = (
+				7563FC2320CE2F3B00F21D59 /* Manager */,
+				7563FC2F20CE2F3B00F21D59 /* Client */,
+			);
+			path = RYNetworking;
+			sourceTree = "<group>";
+		};
+		7563FC2320CE2F3B00F21D59 /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7563FC2420CE2F3B00F21D59 /* RYNetworkResponse.h */,
+				7563FC2520CE2F3B00F21D59 /* RYNetworkError.h */,
+				7563FC2620CE2F3B00F21D59 /* RYNetworkRequest.h */,
+				7563FC2720CE2F3B00F21D59 /* RYNetworkManager.m */,
+				7563FC2820CE2F3B00F21D59 /* RYNetworkTool.m */,
+				7563FC2920CE2F3B00F21D59 /* RYNetworkError.m */,
+				7563FC2A20CE2F3B00F21D59 /* RYNetworkResponse.m */,
+				7563FC2B20CE2F3B00F21D59 /* RYNetworkRequest.m */,
+				7563FC2C20CE2F3B00F21D59 /* RYNetworkManager.h */,
+				7563FC2D20CE2F3B00F21D59 /* RYNetworkConst.h */,
+				7563FC2E20CE2F3B00F21D59 /* RYNetworkTool.h */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7563FC2F20CE2F3B00F21D59 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				7563FC3020CE2F3B00F21D59 /* RYHttpClient.m */,
+				7563FC3120CE2F3B00F21D59 /* RYBatchRequest.m */,
+				7563FC3220CE2F3B00F21D59 /* RYNetworkConfig.h */,
+				7563FC3320CE2F3B00F21D59 /* RYChainRequest.h */,
+				7563FC3420CE2F3B00F21D59 /* RYBatchRequest.h */,
+				7563FC3520CE2F3B00F21D59 /* RYHttpClient.h */,
+				7563FC3620CE2F3B00F21D59 /* RYNetworkConfig.m */,
+				7563FC3720CE2F3B00F21D59 /* RYChainRequest.m */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -78,6 +173,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 7563FC1F20CE2EA500F21D59 /* Build configuration list for PBXNativeTarget "RYNetworking" */;
 			buildPhases = (
+				ADFC91829C3D98C2457FFCC2 /* [CP] Check Pods Manifest.lock */,
 				7563FC0520CE2EA400F21D59 /* Sources */,
 				7563FC0620CE2EA400F21D59 /* Frameworks */,
 				7563FC0720CE2EA400F21D59 /* Resources */,
@@ -136,14 +232,44 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		ADFC91829C3D98C2457FFCC2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RYNetworking-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		7563FC0520CE2EA400F21D59 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7563FC3920CE2F3B00F21D59 /* RYNetworkTool.m in Sources */,
+				7563FC3B20CE2F3B00F21D59 /* RYNetworkResponse.m in Sources */,
+				7563FC4020CE2F3B00F21D59 /* RYChainRequest.m in Sources */,
 				7563FC1120CE2EA400F21D59 /* ViewController.m in Sources */,
+				7563FC3F20CE2F3B00F21D59 /* RYNetworkConfig.m in Sources */,
+				7563FC3C20CE2F3B00F21D59 /* RYNetworkRequest.m in Sources */,
+				7563FC3A20CE2F3B00F21D59 /* RYNetworkError.m in Sources */,
+				7563FC3D20CE2F3B00F21D59 /* RYHttpClient.m in Sources */,
+				7563FC3820CE2F3B00F21D59 /* RYNetworkManager.m in Sources */,
 				7563FC1C20CE2EA500F21D59 /* main.m in Sources */,
 				7563FC0E20CE2EA400F21D59 /* AppDelegate.m in Sources */,
+				7563FC3E20CE2F3B00F21D59 /* RYBatchRequest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,14 +407,12 @@
 		};
 		7563FC2020CE2EA500F21D59 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7880014C302D54DA13C1ED10 /* Pods-RYNetworking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RYNetworking/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryeagler.RYNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,14 +421,12 @@
 		};
 		7563FC2120CE2EA500F21D59 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF72FB03F81E7C6108755C98 /* Pods-RYNetworking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = RYNetworking/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.ryeagler.RYNetworking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
