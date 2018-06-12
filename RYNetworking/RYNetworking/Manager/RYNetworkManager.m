@@ -369,7 +369,7 @@ static dispatch_queue_t RY_network_manager_creation_queue() {
             } else {
                 [formData appendPartWithFileURL:RYFormData.fileURL name:RYFormData.name error:fileError];
             }
-            if (fileError) {
+            if (*fileError) {
                 break;
             }
         }
